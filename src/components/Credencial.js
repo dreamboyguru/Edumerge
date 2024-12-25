@@ -2,7 +2,7 @@ import React from 'react'
 
 const Credencial = () => {
   return (
-    <div>Credencial</div>
+    <div>Credencials</div>
   )
 }
 
