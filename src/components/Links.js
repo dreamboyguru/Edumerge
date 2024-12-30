@@ -10,7 +10,7 @@ const Links = () => {
         { label: "Full backup from Live", text: "./getLiveProdDB.sh" },
         { label: "partial backup from Live", text: "./PartialBackup.sh" },
         { label: "School Details", text: "https://login.edumerge.com/V2/schoolinfo/Dev_Team_SchoolData.html" },
-        { label: "Razorpay Logs", text: "https://app.edumerge.com/V2/feereceipt/RazorpayJson/EM5018_Sep-24.json" },
+        { label: "Razorpay Logs11", text: "https://app.edumerge.com/V2/feereceipt/RazorpayJson/EM5018_Sep-24.json" },
         { label: "Column 2 - Row 4", text: "This is the second column of the fourth row." }
     ];
 
