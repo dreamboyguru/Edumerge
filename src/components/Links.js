@@ -11,7 +11,7 @@ const Links = () => {
         { label: "partial backup from Live", text: "./PartialBackup.sh" },
         { label: "School Details", text: "https://login.edumerge.com/V2/schoolinfo/Dev_Team_SchoolData.html" },
         { label: "Razorpay Logs11", text: "https://app.edumerge.com/V2/feereceipt/RazorpayJson/EM5018_Sep-24.json" },
-        { label: "Column 2 - Row 4", text: "This is the second column of the fourth row." }
+        { label: "after add file to show file name", text: "git diff --cached --name-only" }
     ];
 
     const [copiedIndex, setCopiedIndex] = React.useState(null);
