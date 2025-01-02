@@ -18,8 +18,10 @@ const Credencial = () => {
           </div>
         </li>
         <li class="mb-2">
-          <b>Step 3 : </b> Set Label as you want in <b>FeeReceiptLabels</b> Table
+          <b>Step 3 : </b> 
           <div class="p-3 mt-2 border rounded bg-white">
+            <div>Set Label as you want in <b>FeeReceiptLabels</b> Table</div>
+            <div>DefinitionId take it from FeereceiptDefinition Table primary key</div>
           </div>
         </li>
         <li class="mb-2">Step 3 : Update <b>ReceiptLabelId</b> coloum from <b>tblfeeheads</b> Table
