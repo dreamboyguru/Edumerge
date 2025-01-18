@@ -23,6 +23,9 @@ return (
                         <li className="nav-item" key="contact">
                             <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
+                        <li className="nav-item" key="contact">
+                            <Link className="nav-link" to="/admission">Admssion</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
