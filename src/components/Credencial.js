@@ -20,8 +20,20 @@ const Credencial = () => {
         <li class="mb-2">
           <b>Step 3 : </b> 
           <div class="p-3 mt-2 border rounded bg-white">
-            <div>Set Label as you want in <b>FeeReceiptLabels</b> Table</div>
-            <div>DefinitionId take it from FeereceiptDefinition Table primary key</div>
+            <ol type='A'>
+              <li>Set Label as you want in <b>FeeReceiptLabels</b> Table</li>
+              <li>
+                <b>keys : </b>
+                <ol>
+                  <li>Curr_AY = 2024</li>
+                  <li>Curr_AY_2 = 24</li>
+                  <li>Next_AY = 2025</li>
+                  <li>Next_AY_2 = 25</li>
+                  <li>Receipt_Number = Receipt number</li>         
+                </ol>
+              </li>
+              <li>DefinitionId take it from FeereceiptDefinition Table primary key</li>
+            </ol>
           </div>
         </li>
         <li class="mb-2">Step 3 : Update <b>ReceiptLabelId</b> coloum from <b>tblfeeheads</b> Table
