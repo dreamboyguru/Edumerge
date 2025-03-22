@@ -8,7 +8,7 @@ const DBQueries = () => {
             name: "Check performance of employee",
             value: 1,
             keys: `SELECT tm.TMId, tm.AssignedTo, sf.Fname, tt.TaskName, tm.TicketNo, tm.DueDate, tm.CompletionDate, tm.SchoolId, ts.SchoolName, tm.TimeSpent, tm.Status, tm.TaskDesc FROM TaskManagement tm INNER JOIN masterstaff sf ON sf.EMUniqueId = tm.AssignedTo AND sf.EMUniqueId = '1477751' INNER JOIN institutiondepartment dt ON dt.DepartmentId = sf.DepartmentId INNER JOIN TaskTypes tt ON tt.TaskTypeId = tm.TaskTypeId INNER JOIN ed_security.tblschool ts ON ts.SchoolID = tm.SchoolId WHERE tm.CompletionDate BETWEEN '2025-03-17' AND '2025-03-21' ORDER BY sf.DepartmentId, sf.Fname `,
-            text: "SQL query to check performance of an employee",
+            text: "SQL query to check performance of an employee ",
         }
     ];
 
