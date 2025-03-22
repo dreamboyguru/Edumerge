@@ -4,16 +4,6 @@ const Admission = () => {
     const data = [
         {
             id: 1,
-            name: "Override Admission output form link",
-            value: 1,
-            keys: {
-                "custom_pdflink": "/onlineadmissionform/5486_admission_form.html",
-                "overRidePhotopathWithCustomPath": 1
-            },
-            text: "Override Admission output form Link"
-        },
-        {
-            id: 1,
             name: "NewReceiptCreationRoutine, Custom_FeeReceiptNo",
             value: 1,
             keys: {
@@ -21,6 +11,15 @@ const Admission = () => {
                 "overRidePhotopathWithCustomPath": 1
             },
             text: "Override Admission output form"
+        },
+        {
+            id: 1,
+            name: "NA",
+            value: 1,
+            keys: {
+                "enablestudentfeestructure": 1
+            },
+            text: "NA"
         },
     ];
     return (
