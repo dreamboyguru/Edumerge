@@ -1,0 +1,4 @@
+Host stage.edumerge.com
+    HostName stage.edumerge.com
+    User ubuntu
+    RemoteCommand cd /home/portal/efsData/git/edumerge; exec $SHELL
